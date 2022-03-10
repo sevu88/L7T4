@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements TextWatcher{
 
     }
     public void afterTextChanged(Editable s) {
-        //Reflect the value entered in TextView in real time
         textView.setText(s);
     }
 }
